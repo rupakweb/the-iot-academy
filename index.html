@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The IOT ACADEMY</title>
+    <!--bootstrap cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Aos css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--style css-->
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--navbar start-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white m-0 p-0">
+            <div class="container">
+              <a class="navbar-brand p-0" href="#"><img src="https://www.theiotacademy.co/assets/images/the-iot-logo-new.webp" height="70" width="120" class="img-fluid" alt="the iot logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a href="#" class="all-courses-btn">All Courses <img class="ml-3" src="https://www.theiotacademy.co/assets/images/newHomePage/downArrow.webp" alt="downArrow icon" aria-colspan="img-fluid" height="18" width="18"/></a>
+                <form class="d-flex ms-auto nav-search" role="search">
+                    <input class="form-control" type="search" placeholder="Search courses......." aria-label="Search">
+                    <button type="submit" class="hidden-xs rs-search" type="button" aria-label="name">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Resources <i class="fa fa-angle-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Job Portal <span class="upspanclsjobiconh"><img src="https://s3-tiaimgv1.s3.ap-south-1.amazonaws.com/images/webpageicon/icon-of-job-portalh.jpg" class="header-job-portal-icon-img" alt="brefcase" class="img-fluid" height="20" width="20"/></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link login" href="#">Login <i class="fa fa-angle-down"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!--navbar end-->
+    
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                    <h1><span>Advanced Certification In</span> Data Science, Machine Learning and IoT</h1>
+                    <p class="tagline">A perfectly customized Data Science, Machine Learning, and IoT Course offered by E&ICT Academy, IIT Guwahati. It is an industry-approved program designed for future Data Scientists & ML  Engineers. Learn in-demand skills such as Statistical Thinking, Data Analysis & Visualisation, Artificial Intelligence & Machine Learning, Python, Tensor Flow, Neural Networks & Deep Learning, Speech Recognition, IoT, and work on 10+ industry projects & multiple tools.</p>
+                    <div class="d-flex gap-3 mb-3">
+                        <a href="#" class="custom-btn-white px-5">Enroll Now</a>
+                        <a href="#" class="custom-btn-white-border">Download Brochure</a>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
+                    <div class="banner-form">
+                        <div class="head">Apply Free Counselling</div>
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputName" class="form-label d-none">Full Name</label>
+                              <input type="text" placeholder="Full Name*" class="form-control" id="exampleInputName" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail" class="form-label d-none">Email address</label>
+                              <input type="email" placeholder="Email*" class="form-control" id="exampleInputEmail" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPhone" class="form-label d-none">Phone Number</label>
+                              <input type="email" placeholder="Phone Number*" class="form-control" id="exampleInputPhone" required>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select Your Occupation*</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputCall" class="form-label d-none">Best Time To Call*</label>
+                              <input type="text" placeholder="Best Time To Call*" class="form-control" id="exampleInputCall">
+                            </div>
+                            <button type="submit" class="custom-btn">Request a Callback</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-points">
+        <div class="container">
+            <div class="points" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                <div>
+                    <i class="fa-solid fa-clock"></i>
+                    <p class="head">75 Hours Training <span>6 Hrs Per Week</span></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <p class="head">50+ <span>Industry Based Projects</span></p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-hire-a-helper"></i>
+                    <p class="head">400+ <span>Hiring Partners</span></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-restroom"></i>
+                    <p class="head">Batch 9 <span>Starting Soon</span></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <p class="head">Get Upto 30% <span>Scholarship</span></p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <p class="head">100% <span>Placement Support</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="concepts">
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="pattern-circle overlay"></div>
+                <div class="row">
+                    <div class="col-lg-3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="section-head mb-3">
+                            <h2>Concepts Covered</h2>
+                            <div class="service-btn">
+                                <a href="#" class="custom-btn">MORE CATEGORIES</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
+                        <div class="course-type">
+                            <div class="course-icon">
+                                <i aria-hidden="true" class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3 class="course-title">
+                                Data Science and Visualization with Python
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
+                        <div class="course-type">
+                            <div class="course-icon">
+                                <i aria-hidden="true" class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3 class="course-title">
+                                Maths and Applied Statistics
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <div class="course-type">
+                            <div class="course-icon">
+                                <i aria-hidden="true" class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3 class="course-title">
+                                Machine Learning
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <div class="course-type">
+                            <div class="course-icon">
+                                <i aria-hidden="true" class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3 class="course-title">
+                                Deep Learning & NLP
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900">
+                        <div class="course-type">
+                            <div class="course-icon">
+                                <i aria-hidden="true" class="fa-solid fa-cubes"></i>
+                            </div>
+                            <h3 class="course-title">
+                                IoT with Machine Learning
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+                        <div class="course-form">
+                            <h3>Get Free Courses ! Book Your Seat Now.</h3>
+                            <div class="course-field">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" name="name" placeholder="Your Name..">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="email" name="name" placeholder="Your Email..">
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <input type="text" name="name" placeholder="Your Subject..">
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <button type="submit" class="custom-btn">BOOK SEAT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools">
+        <div class="container">
+            <h3 class="heading text-center text-white mb-4">Tools Covered</h3>
+            <div class="tool">
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/1.webp" alt="tool1" height="82" width="75" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/2.webp" alt="tool2" height="91" width="79" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/3.webp" alt="tool3" height="84" width="137" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/4.webp" alt="tool4" height="56" width="177" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/5.webp" alt="tool5" height="75" width="132" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/6.webp" alt="tool6" height="81" width="180" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/7.webp" alt="tool7" height="61" width="168" class="img-fluid"/>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/tools/8.webp" alt="tool8" height="51" width="176" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <h3 class="heading text-center text-dark mb-4">Academic Partners</h3>
+            <div class="points">
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/1.webp" alt="partner1" height="96" width="96" class="img-fluid"/>
+                    <p class="name">IIT Guwahati</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/2.webp" alt="partner2" height="89" width="82" class="img-fluid"/>
+                    <p class="name">E&ICT Academy
+                        IIT Guwahati</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/3.webp" alt="partner3" height="80" width="87" class="img-fluid"/>
+                    <p class="name">E&ICT Academy
+                        IIT Roorkee</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/4.webp" alt="partner4" height="83" width="81" class="img-fluid"/>
+                    <p class="name">IIT Bhilai</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/5.webp" alt="partner5" height="90" width="91" class="img-fluid"/>
+                    <p class="name">E&ICT Academy
+                        NIT Patna</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/6.webp" alt="partner6" height="95" width="96" class="img-fluid"/>
+                    <p class="name">E&ICT Academy
+                        IIT Kanpur</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/7.webp" alt="partner7" height="104" width="91" class="img-fluid"/>
+                    <p class="name">ASTU
+                        Guwahati</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/8.webp" alt="partner8" height="41" width="103" class="img-fluid"/>
+                    <p class="name">Sushant
+                        University</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/9.webp" alt="partner9" height="94" width="94" class="img-fluid"/>
+                    <p class="name">Himachal Pradesh
+                        University</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                    <img src="img/partner/10.webp" alt="partner10" height="94" width="85" class="img-fluid"/>
+                    <p class="name">IIT
+                        Jodhpur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="container">
+            <h3 class="heading text-center text-dark mb-4">Corporate Partners</h3>
+            <div class="points" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                <img src="img/clients/1.webp" alt="client1" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/2.webp" alt="client2" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/3.webp" alt="client3" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/4.webp" alt="client4" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/5.webp" alt="client5" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/6.webp" alt="client6" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/7.webp" alt="client7" height="102" width="197" class="img-fluid"/>
+                <img src="img/clients/8.webp" alt="client8" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/9.webp" alt="client9" height="102" width="197" class="img-fluid"/>
+                <img src="img/clients/10.webp" alt="client10" height="101" width="197" class="img-fluid"/>
+                <img src="img/clients/11.webp" alt="client11" height="102" width="197" class="img-fluid"/>
+                <img src="img/clients/12.webp" alt="client12" height="102" width="197" class="img-fluid"/>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="container">
+            <h4 class="heading text-center text-dark mb-4">Testimonial of our Students</h4>
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="review-content">
+                            <p>"I wanted to express my gratitude for an amazing educational experience. The courses were comprehensive, the lecturers were talented, and the practical projects were insightful. The interactive elements and community support were a great value boost. Thank you for your kind hospitality and fascinating IoT experience."</p>
+                            <div class="user-details">
+                                <div>
+                                    <h5 class="h6 mt-3 mb-1 fw-bold">Hemant Raj</h5>
+                                    <p>Assistant Engineer R&D</p>
+                                </div>
+                                <img src="img/student/1.webp" height="96" width="96" class="img-fluid" alt="review-img" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-content">
+                            <p>"I wanted to express my gratitude for an amazing educational experience. The courses were comprehensive, the lecturers were talented, and the practical projects were insightful. The interactive elements and community support were a great value boost. Thank you for your kind hospitality and fascinating IoT experience."</p>
+                            <div class="user-details">
+                                <div>
+                                    <h5 class="h6 mt-3 mb-1 fw-bold">Hemant Raj</h5>
+                                    <p>Assistant Engineer R&D</p>
+                                </div>
+                                <img src="img/student/2.webp" height="101" width="100" class="img-fluid" alt="review-img" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-content">
+                            <p>"I wanted to express my gratitude for an amazing educational experience. The courses were comprehensive, the lecturers were talented, and the practical projects were insightful. The interactive elements and community support were a great value boost. Thank you for your kind hospitality and fascinating IoT experience."</p>
+                            <div class="user-details">
+                                <div>
+                                    <h5 class="h6 mt-3 mb-1 fw-bold">Hemant Raj</h5>
+                                    <p>Assistant Engineer R&D</p>
+                                </div>
+                                <img src="img/student/1.webp" height="96" width="96" class="img-fluid" alt="review-img" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination2 mt-3 text-center"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="alumini">
+        <div class="container">
+            <h4 class="heading text-center text-white mb-4">Our Alumini</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="part" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
+                        <img src="img/alumini/1.webp" alt="alumini1" height="96" width="96" class="img-fluid"/>
+                        <p class="name">Rohit Singh</p>
+                        <p>Data Scientist</p>
+                        <div class="logo">
+                            <img src="img/alumini/logo-1.webp" alt="logo1" height="39" width="146" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="part" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <img src="img/alumini/2.webp" alt="alumini2" height="96" width="96" class="img-fluid"/>
+                        <p class="name">Mr. Swapnil Bhanushali</p>
+                        <p>Associate</p>
+                        <div class="logo">
+                            <img src="img/alumini/logo-2.webp" alt="logo2" height="41" width="140" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="part" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800">
+                        <img src="img/alumini/3.webp" alt="alumini3" height="97" width="97" class="img-fluid"/>
+                        <p class="name">Gaurav Lad</p>
+                        <p>Sr. Associate Growth & Marketing</p>
+                        <div class="logo">
+                            <img src="img/alumini/logo-3.webp" alt="logo3" height="41" width="130" class="img-fluid"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container">
+            <h4 class="heading text-center text-dark mb-4">What Learners Say About The IoT Academy</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center mb-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <img src="img/google.webp" alt="google" height="66" width="196" class="img-fluid"/>
+                        <i class="fa-solid fa-angles-down d-block"></i>
+                    </div>
+                    <div class="swiper mySwiperg">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review-content">
+                                    <img src="img/review/g1.webp" alt="google1" height="277" width="533" class="img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-content">
+                                    <img src="img/review/g2.webp" alt="google2" height="277" width="530" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-paginationg mt-3 text-center"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center mb-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <img src="img/linkdin.webp" alt="linkdin" height="61" width="224" class="img-fluid"/>
+                        <i class="fa-solid fa-angles-down d-block"></i>
+                    </div>
+                    <div class="swiper mySwiperl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review-content">
+                                    <img src="img/review/l1.webp" alt="linkdin1" height="272" width="417" class="img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review-content">
+                                    <img src="img/review/l3.webp" alt="linkdin3" height="289" width="527" class="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-paginationl mt-3 text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rs-footer" class="rs-footer tia-footer">
+
+        <div class="footer-top">
+            <div class="row footer-inner">
+                <div class=" f-1">
+                    <div class="about-widget">
+                        <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iot.webp" alt="f logo" class="img-fluid">
+                        <p class="copyright-p copyright-pc">Copyright © The IoT Academy</p>
+                    </div>
+    
+                </div>
+                <!-------QUICK LINKS--------->
+                <div class="f-2">
+                    <h5 class="footer-title">RESOURCES</h5>
+                    <ul>
+    
+                        <li class="footer-link">
+                            <a href="https://www.theiotacademy.co/blog">Blog</a>
+                        </li>
+                        <li class="footer-link">
+                            <a href="https://www.upskillcampus.com/salary-predictor">Salary Predictor</a>
+                        </li>
+                        <li class="footer-link"><a href="https://www.forum.upskillcampus.com/"> Discussion Forum</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/careers"> Careers</a></li> 
+                        <li class="footer-link">
+                            <a href="https://job.uctconsulting.com/">Job Portal</a>
+                        </li>
+                    </ul>
+    
+                </div>
+                <!-------OUR OFFERING--------->
+                <div class="  f-3">
+                    <h5 class="footer-title">QUICK LINKS</h5>
+                    <ul>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/"> Home</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/about-us">About us</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/all-courses/">All Courses</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/contact"> Contact Us</a></li>
+                        <li class="footer-link">
+                            <a href="https://www.theiotacademy.co/our-placements">Our Placements</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-------OUR COURSES--------->
+                <div class=" f-4">
+                    <h5 class="footer-title">TRENDING COURSES</h5>
+                    <ul>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/advanced-certification-in-data-science-machine-learning-and-iot-by-eict-iitg">Data Science, Machine Learning and IoT <br> By E&amp;ICT Academy IIT Guwahati</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/digital-marketing-training">Digital Marketing</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/embedded-systems-training">Embedded Systems</a></li>
+                        <li class="footer-link"><a href="https://www.theiotacademy.co/iot-training">Internet of Things</a></li>
+                    </ul>
+                </div>
+                <!-------TRENDING--------->
+                <div class="f-5">
+                    <h5 class="footer-title">FOLLOW AND JOIN US</h5>
+                    <div class="footer-share">
+                        <ul>
+                            <li>
+                                <a target="_blank" title="Join Us On Instagram" href="https://instagram.com/the_iot_academy">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-1.webp" alt="" width="22px">
+                                </a>
+                            </li>
+    
+                            <li>
+                                <a target="_blank" title="Follow Us On Facebook" href="https://www.facebook.com/academyforiot/">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-2.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Follow Us On Linkedin" href="https://www.linkedin.com/school/theiotacademy/">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-3.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Subscribe Us On YouTube" href="https://www.youtube.com/channel/UCyIXtUMsOX02mpi5PKex9aA">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-4.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Text Us On Twitter" href="https://twitter.com/academyforiot">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-5.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title=" join our Discord server" href="https://discord.com/invite/7HZGJ826Cr">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-6.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Follow Us On Telegram" href="https://t.me/+EzYARhZbdZw1MzBl">
+                                    <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-iocn-7.webp" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <h5 class="footer-title mt-4">CONTACT US</h5>
+                    <ul class="footer-link-top">
+    
+                        <li class="footer-link">
+                            <a href="tel:+919354068856">
+                                <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-contact-us.webp" alt="" width="22px">
+                                <span class="ml-2">+91-9354068856</span>
+                            </a>
+                        </li>
+    
+                        <li class="footer-link">
+                            <a href="mailto:info@theiotacademy.co">
+                                <img src="https://www.theiotacademy.co/assets/images/newHomePage/footer-email.webp" alt="" width="22px">
+                                <span class="ml-2">info@theiotacademy.co</span>
+                            </a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <p class="copyright-p copyright-phone">Copyright © The IoT Academy</p>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footer-bottom-links clearfix">
+                            <div class="menu-footer-menu-container">
+                                <ul id="menu-footer-menu" class="inlineintfooter">
+                                    <li><a title="Refund and Course Rescheduling policy" href="https://www.theiotacademy.co/term-and-condition">Term &amp; Conditions</a></li>
+                                    <li><a title="Privacy policy" href="https://www.theiotacademy.co/privacy-policies">Privacy Policy</a></li>
+                                    <li><a title="Refund and Course Rescheduling policy" href="https://www.theiotacademy.co/refund-policies">Refund Policy</a></li>
+                                    <li><a title="Disclaimer" href="https://www.theiotacademy.co/disclaimer">Disclaimer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright">
+                            <p>© 2013 - 2024 <a href="https://www.theiotacademy.co/" class="website-url">The IoT Academy</a>.<span>All Rights Reserved</span> Training &amp; Development Division of <a href="https://www.uniconvergetech.in" target="_blank" class="website-url">UniConverge Technologies Pvt. Ltd</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-header" style="border-bottom: 0; padding: 0 10px;margin: 0;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <a href="https://learn.upskillcampus.com/s/pages/industrial-internship-program" target="_blank">
+                <img src="https://s3-tiaimgv1.s3.ap-south-1.amazonaws.com/images/banner/popup-oofer-image.webp" alt="" width="100%"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="leftfixed_socilaicon">
+            <ul class="lefficxes_socialul">
+                <li><a href="https://www.facebook.com/academyforiot/" target="_blank" class="blgsocial1"><i class="icon-facebook footersocialiconblog"></i></a></li>
+                <li><a href="https://instagram.com/the_iot_academy" target="_blank" class="blgsocial2"><i class="icon-instagram footersocialiconblog"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/theiotacademy/" target="_blank" class="blgsocial3"><i class="icon-linkedin footersocialiconblog"></i></a></li>
+                <li><a href="https://twitter.com/academyforiot" target="_blank" class="blgsocial4"><i class="icon-twitter footersocialiconblog"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        once:true,
+        });
+    </script>
+    <script>
+        var swiper2 = new Swiper(".mySwiper2", {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            freeMode: true,
+            breakpoints: {
+               // when window width is >= 280px
+               280: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 1,
+                spaceBetween: 30
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 40
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40
+              }
+            },
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination2",
+              clickable: true,
+            },
+          });
+    </script>
+    <script>
+        var swiper2 = new Swiper(".mySwiperg", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            freeMode: true,
+            breakpoints: {
+               // when window width is >= 280px
+               280: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 1,
+                spaceBetween: 30
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 40
+              },
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 40
+              }
+            },
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-paginationg",
+              clickable: true,
+            },
+          });
+    </script>
+    <script>
+        var swiper2 = new Swiper(".mySwiperl", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            freeMode: true,
+            breakpoints: {
+               // when window width is >= 280px
+               280: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 320px
+              320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: 1,
+                spaceBetween: 30
+              },
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 40
+              },
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 40
+              }
+            },
+            autoplay: {
+              delay: 2500,
+              disableOnInteraction: false
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-paginationl",
+              clickable: true,
+            },
+          });
+    </script>
+  </body>
+</html>
