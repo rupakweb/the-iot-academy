@@ -236,14 +236,20 @@ header{
 .banner-form{
     background: #fff;
     border-radius: 5px;
-    padding: 2rem;
 }
 .banner-form .head{
     font-size: 30px;
     font-weight: 600;
     color: #00055d;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #00055d29, #ffaa1273);
+    padding: 1.5rem 0;
+    border: 1px dashed #ffaa12;
+    border-radius: 5px;
+}
+.banner-form form{
+    padding: 2rem;
 }
 .banner-form form input::placeholder{
     color: #212529;
@@ -333,18 +339,24 @@ header{
 }
 .concepts .section-head {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: auto;
-    margin-bottom: auto;
-    height: 100%;
+    background: #00065c;
+    border-radius: 5px;
+    height: 90%;
+    margin-bottom: 10%;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ffaa12;
+    border-bottom: 5px solid #ffaa12;
 }
 .concepts .section-head h2{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #000;
+    color: #fff;
 }
 .concepts .course-form {
     padding: 40px;
@@ -544,6 +556,28 @@ header{
 .alumini .part p{
     margin-bottom: 10px;
     color: #fff;
+}
+
+/* strip-bottom */
+.strip-bottom{
+    background: #00055d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border-left: 5px solid #FFAE27 !important;
+    border: 1px dashed #FFAE27;
+}
+.strip-bottom i{
+    color: #FFAE27;
+    font-size: 2rem;
+}
+.strip-bottom h5{
+    margin: 0;
+    margin-right: auto;
 }
 
 /* review */
